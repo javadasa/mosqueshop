@@ -1,0 +1,26 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#news-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#main-pic {
+    flex: 1 1 200px;
+    max-height: 50vh;
+    margin-bottom: 5%;
+}
+
+#img-wrapper {
+    list-style: none;
+}
+
+#img-wrapper img {
+    flex: 1 1 100%;
+    padding: 10% 10%;
+    max-height: 30vh;
+}

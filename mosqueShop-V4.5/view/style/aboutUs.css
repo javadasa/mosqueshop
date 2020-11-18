@@ -1,0 +1,13 @@
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#aboutUs-img {
+    flex: 1 1 20%;
+    max-height: 30vh;
+}
+
+#first-row {
+    flex: 1 1 60%;
+}
