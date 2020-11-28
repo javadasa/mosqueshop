@@ -19,13 +19,13 @@
                 <label for="email">ایمیل</label>
                 <input type="email" id="email" placeholder="ایمیل خود را وارد نمایید" />
                 <!-- v2 message -->
-                <p id="wrong-input-message">ایمیل اشتباه است</p>
+             <!--   <p id="wrong-input-message">ایمیل اشتباه است</p>   -->
             </div>
             <div class="form-control">
                 <label for="password">رمز عبور</label>
                 <input type="password" id="password" placeholder="رمز ورود خود را وارد نمایید" />
                 <!-- v2 message -->
-                <p id="wrong-input-message">رمز اشتباه است</p>
+            <!--    <p id="wrong-input-message">رمز اشتباه است</p>   -->
             </div>
             <button class="custom-btn">ورود</button>
             <div>

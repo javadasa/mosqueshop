@@ -217,6 +217,9 @@
             echo '</div>';
         }
         ?>
+       <div class="ml-lg-2 mr-auto mt-3 mt-lg-0">
+           <a href="../view/signUp.php" class="btn bg-info text-white my-auto">ثبت نام</a>
+            </div>
     </div>
 </nav>
 
@@ -422,7 +425,7 @@
                 <ul class="list-inline text-white mt-3">
                    <!-- <li class="p-1">کاربران آنلاین: <?php // print_r($count_user_online);?></li>-->
                     <li class="p-1">تعداد مطالب : <?php echo $count_content[0]['count(titleNews)']; ?></li>
-                    <li class="p-1">تعداد کامنت : <?php echo $count_comment[0]['count(id)']; ?>></li>
+                    <li class="p-1">تعداد کامنت : <?php echo $count_comment[0]['count(id)']; ?></li>
                 </ul>
             </div>
             <!--        <div class="col-12 col-md-4 text-white">
